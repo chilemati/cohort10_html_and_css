@@ -1,0 +1,54 @@
+
+        
+        /* //! MEDIA ATTRIBUTE */
+        /* mobile version */
+@media(min-width: 280px) {
+    body{
+        background-color: navy;
+        color: white;
+        font-size: 1.8rem;
+    }
+
+    }
+        /* tablet version */
+@media(min-width: 750px) {
+    body{
+        background-color: gray;
+        color: white;
+        font-size: 2rem;
+    }
+
+    }
+        /* desktop version */
+@media(min-width: 1024px) {
+    body{
+        background-color: purple;
+        color: white;
+        font-size: 2.2rem;
+        /* adding background-images */
+        background-image: url('/images/Chrysanthemum.jpg');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-attachment: fixed;
+        background-position: right bottom ;
+    }
+    #image-online{
+        background-image: url('https://media.istockphoto.com/id/1442179368/photo/maldives-island.webp?b=1&s=170667a&w=0&k=20&c=i8wK-BoIq_B365rf0oMRBNmuMc4U1zlTUllMuyr_QNw=');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 400px;
+        height: 400px;
+    }
+
+    }
+
+        /* TV version */
+@media(max-width: 2048x) {
+    body{
+        background: color #000;
+        color: white;
+        font-size: 3rem;
+    }
+
+    }
